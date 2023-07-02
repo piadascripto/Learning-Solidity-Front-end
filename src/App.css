@@ -1,8 +1,13 @@
 .mainContainer {
-  display: flex;
   justify-content: center;
+  text-align: center;  
   width: 100%;
-  margin-top: 64px;
+  padding: 100px 20px 100px 20px;
+  background-color: #C0C0C0;
+  color: white; 
+  height: 100%;
+  
+}
 }
 
 .dataContainer {
@@ -20,7 +25,7 @@
 
 .bio {
   text-align: center;
-  color: gray;
+  color: white;
   margin-top: 16px;
 }
 
@@ -31,4 +36,18 @@
   border: 0;
   border-radius: 5px;
   
+}
+.wavesContainer {
+  background-color: white;
+  padding: 30px;
+  font-size: 8px;
+  margin-top: 16px;
+  color: black;
+}
+.footer-container {
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  color: white;
 }
